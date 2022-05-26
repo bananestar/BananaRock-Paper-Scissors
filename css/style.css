@@ -1,0 +1,27 @@
+:root {
+    --color-main: #39c690;
+    --color-white: #ffffff;
+  
+    --font-title: Montserrat, sans-serif;
+    --font-body: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color-main);
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-title);
+  }
